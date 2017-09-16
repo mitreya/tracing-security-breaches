@@ -1,0 +1,10 @@
+2017-08-08 12:59:17.097 CDT [12722] postgres@template1 LOG:  statement: insert into supplier values (1, 'Supplier#000000001', 'sdrGnXCDRcfriBvY0KLi', 'PERU     0', 'PERU', 'AMERICA', '27-989-741-2988');
+2017-08-08 12:59:17.097 CDT [12722] postgres@template1 LOG:  statement: insert into supplier values (2, 'Supplier#000000002', 'TRMhVHz3XiFu', 'ETHIOPIA 1', 'ETHIOPIA', 'AFRICA', '15-768-687-3665');
+2017-08-08 12:59:17.097 CDT [12722] postgres@template1 LOG:  statement: insert into supplier values (3, 'Supplier#000000003', 'BZ0kXcHUcHjx62L7CjZS', 'ARGENTINA7', 'ARGENTINA', 'AMERICA', '11-719-748-3364');
+2017-08-08 12:59:17.097 CDT [12722] postgres@template1 LOG:  statement: insert into supplier values (5, 'Supplier#000000005', 'lONEYAh9sF', 'IRAQ     5', 'IRAQ', 'MIDDLE EAST', '21-750-942-6364');
+2017-08-08 12:59:17.097 CDT [12722] postgres@template1 LOG:  statement: insert into supplier values (6, 'Supplier#000000006', 'zaux5FT', 'KENYA    2', 'KENYA', 'AFRICA', '24-114-968-4951');
+2017-08-08 12:59:17.097 CDT [12722] postgres@template1 LOG:  statement: insert into supplier values (7, 'Supplier#000000007', ' 0W7IPdkpWycU', 'UNITED KI0', 'UNITED KINGDOM', 'EUROPE', '33-190-982-9759');
+2017-08-08 12:59:17.097 CDT [12722] postgres@template1 LOG:  statement: insert into supplier values (9, 'Supplier#000000009', 'gJ6K2MKveYxQT', 'IRAN     6', 'IRAN', 'MIDDLE EAST', '20-338-906-3675');
+2017-08-08 12:59:17.097 CDT [12722] postgres@template1 LOG:  statement: insert into supplier values (10, 'Supplier#000000010', '9QtKQKXK24f', 'UNITED ST9', 'UNITED STATES', 'AMERICA', '34-741-346-9870');
+2017-08-08 12:59:17.097 CDT [12722] postgres@template1 LOG:  statement: delete from supplier where s_suppkey=10 and s_name LIKE "Suppl%";
+2017-08-08 12:59:17.097 CDT [12722] postgres@template1 LOG:  statement: update supplier set s_name="Supplier#000000004", s_phone='15-768-190-5944' where s_suppkey = 2;
